@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .article {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .article img {
+            width: 220px;
+            height: 140px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 6px;
+        }
+        .article-content {
+            flex: 1;
+        }
+        .article-content h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .article-content p {
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Global Times</h1>
+            <p>Your trusted source for the latest updates</p>
+        </header>
+        <div style="display: flex; gap: 30px;">
+            <main style="flex: 3;">
+                <!-- World News Section -->
+                <section>
+                    <h2>World News</h2>
+                    <div class="article">
+                        
+                            <h3>Global Leaders Meet for Climate Summit</h3>
+                            <p>Presidents and prime ministers from around the world gathered in Geneva to discuss urgent climate action. Agreements were reached on several key initiatives.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=400&q=80" alt="World News">
+                        <div class="article-content">
+                            <h3>Historic Peace Treaty Signed</h3>
+                            <p>After years of negotiations, two neighboring countries signed a peace treaty, ending decades of conflict and opening new opportunities for trade.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Business Section -->
+                <section>
+                    <h2>Business</h2>
+                    <div class="article">
+                        
+                        <div class="article-content">
+                            <h3>Stock Markets Reach All-Time High</h3>
+                            <p>Global stock markets soared today, with major indices hitting record levels. Analysts attribute the surge to strong corporate earnings and positive economic data.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Business News">
+                        <div class="article-content">
+                            <h3>Startup Revolutionizes Online Shopping</h3>
+                            <p>A new tech startup has launched an innovative platform that promises to change the way people shop online, offering personalized recommendations and faster delivery.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Sports Section -->
+                <section>
+                    <h2>Sports</h2>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=400&q=80" alt="Sports News">
+                        <div class="article-content">
+                            <h3>Olympic Games Kick Off</h3>
+                            <p>The world’s top athletes have arrived for the opening ceremony of the Olympic Games. Spectators are excited for two weeks of thrilling competition.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=400&q=80" alt="Sports News">
+                        <div class="article-content">
+                            <h3>Local Team Wins Championship</h3>
+                            <p>Fans cheered as the local team clinched the championship title in a thrilling final match. The victory parade is scheduled for next week.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Entertainment Section -->
+                <section>
+                    <h2>Entertainment</h2>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Entertainment News">
+                        <div class="article-content">
+                            <h3>Blockbuster Movie Breaks Records</h3>
+                            <p>The latest blockbuster has smashed box office records, drawing huge crowds and rave reviews from critics and fans alike.</p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Entertainment News">
+                        <div class="article-content">
+                            <h3>Music Festival Rocks the City</h3>
+                            <p>Thousands attended the annual music festival, enjoying performances from top artists and discovering new talent on the main stage.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <aside style="flex: 1;">
+                <!-- Sidebar: Weather, Ads, Editor's Picks -->
+                <section style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3>Weather</h3>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=200&q=80" alt="Weather" style="width:100%; border-radius:6px;">
+                    <p><strong>City:</strong> Sunny, 32°C</p>
+                    <p><strong>Tomorrow:</strong> Partly Cloudy, 30°C</p>
+                </section>
+                <section style="background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 30px;">
+                    <h3>Advertisement</h3>
+                    <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=200&q=80" alt="Ad" style="width:100%; border-radius:6px;">
+                    <p>Shop the latest gadgets at TechStore! <a href="#">Visit now</a></p>
+                </section>
+                <section style="background: #f9f9f9; padding: 15px; border-radius: 8px;">
+                    <h3>Editor's Picks</h3>
+                    <ul style="padding-left: 18px;">
+                        <li><a href="#">How to Stay Productive in 2025</a></li>
+                        <li><a href="#">Top 10 Travel Destinations</a></li>
+                        <li><a href="#">Healthy Living Tips</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+        <footer>
+            &copy; 2025 Global Times. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
